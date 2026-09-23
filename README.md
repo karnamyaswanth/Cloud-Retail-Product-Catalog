@@ -2,6 +2,8 @@
 
 A full-stack cloud computing project for managing retail products, categories, inventory, stock levels, and product information through a web-based dashboard.
 
+---
+
 ## 📌 Project Overview
 
 The **Cloud-Based Retail Product Catalog Management System** provides a centralized platform for retail businesses to manage their product catalog efficiently.
@@ -118,6 +120,40 @@ Products can be searched and filtered using:
 
 ---
 
+## 📸 Application Screenshots
+
+### 📊 Dashboard
+
+The dashboard provides an overview of the retail product catalog, including total products, total stock, low-stock products, out-of-stock products, recent products, and inventory alerts.
+
+![Dashboard](screenshots/dashboard.png)
+
+---
+
+### 📦 Product Management
+
+The Products page allows users to add, edit, delete, search, and filter retail products.
+
+![Products](screenshots/products.png)
+
+---
+
+### 🗂️ Category Management
+
+The Categories page displays product categories along with the number of products and total stock associated with each category.
+
+![Categories](screenshots/categories.png)
+
+---
+
+### 📋 Inventory Management
+
+The Inventory page provides an overview of stock levels and identifies active, low-stock, and out-of-stock products.
+
+![Inventory](screenshots/inventory.png)
+
+---
+
 ## 🏗️ System Architecture
 
 ```text
@@ -213,8 +249,13 @@ Cloud-Retail-Product-Catalog/
 │   ├── database.js
 │   ├── server.js
 │   ├── package.json
-│   ├── package-lock.json
-│   └── internship_portal.db
+│   └── package-lock.json
+│
+├── screenshots/
+│   ├── dashboard.png
+│   ├── products.png
+│   ├── categories.png
+│   └── inventory.png
 │
 ├── .gitignore
 └── README.md
@@ -333,7 +374,7 @@ DELETE /api/products/:id
 ### Categories
 
 ```text
-GET /api/categories
+GET  /api/categories
 POST /api/categories
 ```
 
@@ -393,7 +434,7 @@ This project demonstrates several cloud and distributed application concepts:
 
 - Client-server architecture
 - RESTful APIs
-- Web-based application architecture
+- Web application architecture
 - Database-backed application
 - Frontend and backend separation
 - Centralized product management
